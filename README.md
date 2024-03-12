@@ -21,7 +21,9 @@ At the end of the ordering process, the system generates a detailed bill summari
 ## How to Use
 
 + Clone the Repository:
-
+''' bash
+git clone https://github.com/shreenithic/Restaurant-Ordering-System.git
+'''
 + Import into Eclipse: Open Eclipse and import the project into your workspace.
 
 + Configure MySQL Database: Ensure that you have a MySQL database set up and update the connection details in the configuration files. 
