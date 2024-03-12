@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) throws Exception{
 		  try {
 			  Class.forName("com.mysql.cj.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/restaurantdb","root","Shree_2529");
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/restaurantdb","root","");
 			  Statement st=con.createStatement();
 			  
 			  Scanner sc=new Scanner(System.in);
